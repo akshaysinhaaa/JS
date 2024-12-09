@@ -1,4 +1,5 @@
 // Preffered way of using variables is camelCase
+// var is reassignable
 var age = 20;
 
 var num1 = 10;
@@ -8,6 +9,7 @@ console.log(num1 + num2);
 
 // var -> Global Scope
 //means if else ke andar var declared hai to bhi globally accessible ho jayega
+//reassignable
 if(true){
     var name = "Akshay Sinha";
 }
