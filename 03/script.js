@@ -40,3 +40,9 @@ const persons = {
 
 console.log(persons)
 console.log(persons.gender)
+
+//type of - to find the type
+
+const nameAnything = '123';
+console.log(typeof nameAnything); // give us string as o/p
+console.log(typeof persons);
