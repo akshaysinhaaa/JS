@@ -1,7 +1,7 @@
 //Data Types
 
 //Numbers
-let num1 = 10;
+let num1 = 10.32;
 let num2 = 12;
 
 console.log(num1 + num2);
@@ -13,8 +13,10 @@ const lastName = "Sinha";
 console.log(firstName + " " + lastName);
 
 //Booleans
+// true -> 1 and false -> 0
  let isLoggedIn = true
  console.log(isLoggedIn)
+ console.log(isLoggedIn + 10) //11 on console that verifies as true = 1 and fals = 0
 
  //Null
 let lastLoginDate = null;
@@ -27,12 +29,13 @@ console.log(lastLoginDate)
 let randomString = undefined;
 console.log(randomString)
 
-//Objects
+//Objects (Key value pairs)
 const persons = {
     fullName: 'Jane Doe',
     gender : 'male',
     age : 23,
-    school : 'Bennett'
+    school : 'Bennett',
+    lastLoginDate : null,
 }
 
 console.log(persons)
