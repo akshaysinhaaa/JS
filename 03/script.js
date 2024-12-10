@@ -26,3 +26,14 @@ console.log(lastLoginDate)
 
 let randomString = undefined;
 console.log(randomString)
+
+//Objects
+const persons = {
+    fullName: 'Jane Doe',
+    gender : 'male',
+    age : 23,
+    school : 'Bennett'
+}
+
+console.log(persons)
+console.log(persons.gender)
