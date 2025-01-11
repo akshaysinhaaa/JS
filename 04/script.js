@@ -22,7 +22,7 @@ let result = age>=18 ? 'you are Adult' : 'Minor';
 console.log(result)
 
 //Switch operations
-const option = 1;
+const option = 2;
 
 switch(option){
     case 1: console.log('English');
@@ -30,5 +30,7 @@ switch(option){
     case 2: console.log('Hindi');
     break;
     case 3: console.log('German');
-    break;              //If I will not use break it will execute the remaing cases below it as well.
+    break;              //If I will not use break it will execute the remaing cases below it as well
+    
+    default: console.log("choose between 1 to 3")
 }
