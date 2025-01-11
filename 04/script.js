@@ -20,3 +20,15 @@ age >=18 ? console.log('you are adult') : console.log('minor');
 
 let result = age>=18 ? 'you are Adult' : 'Minor';
 console.log(result)
+
+//Switch operations
+const option = 1;
+
+switch(option){
+    case 1: console.log('English');
+    break;
+    case 2: console.log('Hindi');
+    break;
+    case 3: console.log('German');
+    break;              //If I will not use break it will execute the remaing cases below it as well.
+}
