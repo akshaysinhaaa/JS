@@ -16,6 +16,11 @@ if(age>=19 || gender=='male'){
 //NOT
 const number = 5;
 
-if(number % 2 != 0){
+// if(number % 2 != 0){
+//     console.log('Odd')
+// }
+
+//can be written as
+if(!(number % 2 == 0)){
     console.log('Odd')
 }
