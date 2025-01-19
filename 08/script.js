@@ -18,3 +18,23 @@ console.log(add(3, 5));
 const addV2 = (a,b) => a+b; //One liner function
 
 console.log(addV2(9,8));
+
+
+//arguments are not accepted in arrow function instead we use something called as spread operator.
+
+const addNumbers = (...nums) => {
+    console.log(nums);
+}
+
+
+//Hoisting (Can't be used in arrow function)
+
+sayHeyThere(); //Defined earlier (it stores in memory)
+
+function sayHeyThere() {
+    console.log('Hey There!')
+}
+
+
+
+
