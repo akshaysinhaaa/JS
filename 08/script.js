@@ -37,10 +37,12 @@ function sayHeyThere() {
 
 
 //This Keyword
-const obj {
+const obj =  {
     value : 20,
-    myFunction : () => {
-        
-    }
-}
+    myFunction : function () {
+        console.log(this);
+    },
+};
+
+obj.myFunction();
 
