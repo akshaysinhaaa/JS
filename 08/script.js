@@ -13,3 +13,8 @@ const add = (a, b) => {
 
 console.log(add(3, 5));
 
+//One more way
+
+const addV2 = (a,b) => a+b; //One liner function
+
+console.log(addV2(9,8));
