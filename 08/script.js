@@ -36,5 +36,11 @@ function sayHeyThere() {
 }
 
 
-
+//This Keyword
+const obj {
+    value : 20,
+    myFunction : () => {
+        
+    }
+}
 
