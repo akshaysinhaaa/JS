@@ -14,3 +14,12 @@ console.log(Student[0]);
 //Push -> adds in the end
 Student.push ('Rudra');
 console.log(Student)
+
+//In any language arrays have homogenous values but in js you can use any datatype
+
+const myArray = [1, 'hehe', true, '🧸'];
+console.log(myArray);
+myArray.push({ name: 'Akshay' });
+console.log(myArray);
+
+console.log(myArray.indexOf('hehe'))
