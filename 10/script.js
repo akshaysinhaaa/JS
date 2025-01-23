@@ -28,3 +28,7 @@ console.log(myArray.indexOf('Akshay Sinha')) //Return -1 if it doesn't exist
 //POP -> removes last element
 myArray.pop()
 console.log(myArray);
+
+//Reverse
+myArray.reverse();
+console.log(myArray);
