@@ -24,3 +24,7 @@ console.log(myArray);
 
 console.log(myArray.indexOf('hehe'))
 console.log(myArray.indexOf('Akshay Sinha')) //Return -1 if it doesn't exist
+
+//POP -> removes last element
+myArray.pop()
+console.log(myArray);
