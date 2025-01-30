@@ -13,5 +13,9 @@ function Hello(n){
 myArr.forEach(Hello) //Like a for loop
 
 //or may be pass the whole function
-
 myArr.forEach((val) => console.log(val + ' sinha'));
+
+
+//.map function
+myArr.map((val) => console.log(val));
+
